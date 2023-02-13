@@ -1,0 +1,55 @@
+header{
+    border: 1px solid black;
+    text-decoration: none;
+    height: 115px;
+    background-color: rgb(130, 171, 233);
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+}
+.logo{
+    align-items: center;
+    display: flex;
+}
+
+.logo h2{
+    padding-left: 15px;
+}
+
+.logo-img{
+    padding: 0px 10px;
+    height: 70px;
+}
+
+.flag{
+    height: 25px;
+    padding: 0px 5px 4px 5px;
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    padding-right: 10px;
+}
+
+.link{
+    align-items: center;
+    height: 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 5px 10px 0px;
+}
+
+.link:hover{
+    color: white;
+    background-color: rgb(97, 129, 175);
+    transition: 0.5s;
+}
+
+@media (max-width: 700px){
+    header{
+    flex-direction: column;
+    }
+}
